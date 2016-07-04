@@ -31,6 +31,11 @@ gulp.task('less', function() {
         }))
 });
 
+/* Task to watch less changes */
+gulp.task('watch-less', function() {  
+  gulp.watch('less/agency.less' , ['less']);
+});
+
 // Minify CSS
 gulp.task('minify-css', function() {
     return gulp.src('css/agency.css')
