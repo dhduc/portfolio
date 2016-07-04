@@ -308,6 +308,12 @@ section h3.section-subheading {
 #services p {
   color: white;
 }
+#services .section-subheading {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
 #services .service-heading {
   margin: 15px 0;
   text-transform: none;
