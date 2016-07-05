@@ -741,6 +741,42 @@ ul.social-buttons {
 	}
 }
 
+// Back-to-top button
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+    background: #F05F40;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    &:hover {
+        background: #eb3812;
+    }
+    &.show {
+        opacity: 1;
+    }
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+}
+
 // Highlight Color Customization
 
 ::-moz-selection {
