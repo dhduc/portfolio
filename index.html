@@ -328,7 +328,13 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-
+    <script type="text/javascript">
+        (function ($) {
+            $(document).ready(function() {
+                $('a[rel^="prettyPhoto[pp_gal]"]').prettyPhoto();
+            });
+        })(jQuery);
+    </script>
 </body>
 
 </html>
