@@ -1,15 +1,15 @@
 # Person Homepage
 
 ## Getting Started
-Homepage: [dhduc.github.io](https://dhduc.github.io)
-Technology:
-	- Bootstrap
-	- Jquery
-	- Font-awesome
-	- Less
-	- Gulp
-	- Browser-sync
-	- PrettyPhoto
+### Homepage: [dhduc.github.io](https://dhduc.github.io)
+### Technology:
+- Bootstrap
+- Jquery
+- Font-awesome
+- Less
+- Gulp
+- Browser-sync
+- PrettyPhoto
 ## Guide
 Setup
 ```
