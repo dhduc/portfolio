@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Person Homepage</title>
+    <title>Homepage</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +54,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Resume</a>
+                        <a class="page-scroll" href="#introduce">Introduce</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume" data-toggle="modal">Resume</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -72,8 +75,8 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Services Section -->
-    <section id="services">
+    <!-- Introduce Section -->
+    <section id="introduce">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -272,7 +275,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 
     <!-- Contact Section -->
 
-    <footer class="text-center footer">
+    <footer class="text-center footer" id="contact">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
@@ -310,8 +313,33 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+    <!-- Resume Modal -->
+    <div class="portfolio-modal modal fade" id="resume" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>CV Resume</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <ul class="list-inline">
+                                <li>Date: July 2016</li>
+                                <li>Type: Photoshop Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times fa-fw"></i>Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -328,6 +356,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
     <script type="text/javascript">
         (function ($) {
             $(document).ready(function() {
