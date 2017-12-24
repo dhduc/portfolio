@@ -1,7 +1,7 @@
 # Person Homepage
 
 ## Getting Started
-### Homepage: [dhduc.github.io](https://dhduc.github.io)
+
 ### Technology:
 - Bootstrap
 - Jquery
